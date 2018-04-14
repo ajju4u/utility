@@ -1,1 +1,3 @@
-# oem-utility-package
+npm install
+
+npm publish
