@@ -1,0 +1,24 @@
+{
+  "name": "oem-utility-package",
+  "version": "1.0.0",
+  "description": "An example module demonstrating how to share react components",
+  "main": "build/index.js",
+  "author": "sai krishna ",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  },
+  "scripts": {
+    "build": "babel src -d build",
+    "prepare": "yarn run build"
+  }
+}
