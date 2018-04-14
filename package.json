@@ -1,15 +1,15 @@
 {
-  "name": "shared-react-component-example",
-  "version": "0.1.0",
-  "description":
-    "An example module demonstrating how to share react components",
+  "name": "oem-utility-package",
+  "version": "1.0.0",
+  "description": "An example module demonstrating how to share react components",
   "main": "build/index.js",
-  "repository":
-    "https://github.com/powderham/shared-react-component-example.git",
-  "author": "Ed Powderham",
+  "author": "sai krishna ",
   "license": "MIT",
   "dependencies": {
-    "react": "^16.2.0"
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
